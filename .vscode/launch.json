@@ -1,0 +1,35 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\manage.py",
+            "args": [
+                "runserver"
+            ],
+        },
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "encyclopedia"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
